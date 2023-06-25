@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>form validation</title>
+
+</head>
+<body>
+       <div class="container">
+        <form id="formL"> 
+             <div class="title">GET STARTED</div>
+             
+             <div>  
+                <label for="username">Username</label>
+                <img src="icon/icons8-user-30.png" style="width: 40px;" class="user" alt="">
+                <input type="text" name="username" id="username" class="inputfield" placeholder="Will upton">
+                <img src="icon/icons8-danger-64.png" style="width: 40px;" class="failure" alt="">
+                <img src="icon/icons8-pass-48.png" style="width: 40px;" class="pass" alt="">
+                  <div class="error" id="usererror"></div> 
+                 </div>
+
+        
+             <div><label for="email">Email</label>
+                <img src="icon/icons8-mail-50.png" style="width: 40px;" class="user" alt="">
+                <input type="email" name="email" id="email" class="inputfield" placeholder=" ABC@Gmail.com">
+                <img src="icon/icons8-danger-64.png" style="width: 40px;" class="failure" alt="">
+                <img src="icon/icons8-pass-48.png" style="width: 40px;" class="pass" alt="">
+                 <div class="error"></div> 
+                </div>
+               
+             <div><label for="password">Password</label>
+                <img src="icon/icons8-password-30.png" style="width: 40px;" class="user" alt="">
+                <input type="password" name="password" id="password" class="inputfield" placeholder="password">
+                <img src="icon/icons8-danger-64.png" style="width: 40px;" class="failure" alt="">
+                <img src="icon/icons8-pass-48.png" style="width: 40px;" class="pass" alt="">
+                 <div class="error"></div> 
+                </div>
+
+
+                <button type="submit" id="submit">submit</button>
+        
+        
+        
+            </form>
+      
+    
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
